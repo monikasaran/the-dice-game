@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    border-bottom: 1px solid #d2d0d0;
+    box-shadow: 0px 3px #e2dfdf;
+    background-color: #f1f1f1;
+    padding: 15px;
+}
+#root {
+    display: flex;
+}
+#initForm {
+    padding: 20px;
+    margin: auto;
+}
+.initLabels {
+    display: flex;
+    padding: 5px 0;
+}
+.initLabels>label {
+    flex: 1;
+    padding: 0 5px;
+}
+#initForm>input {
+    float: right;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+.chance{
+    padding: 10px;
+    color: rgb(26, 26, 168);
+}
+.chance-roll {
+    padding: 10px;
+    color: red;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+}
+.playersList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.player {
+    width: 5%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #d2d0d0;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+.selected-player {
+    background-color: #ddffdd;
+}
+.target-achieved {
+    background-color: green;
+    color: white;
+}
+.lead-player, .header{
+    display: flex;
+    padding: 5px 0;
+}
+.leaderboard {
+    padding: 10px;
+}
+.header-rank, .header-name, .header-points {
+    font-weight: bold;
+}
+.lead-rank, .header-rank {
+    width: 3%;
+}
+.lead-name, .header-name{
+    padding: 0 5px;
+    width: 8%;
+}
+.lead-points, .header-points {
+    padding: 0 5px;
+    font-weight: bold;
+    width: 20%;
+}
